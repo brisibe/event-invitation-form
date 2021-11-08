@@ -8,7 +8,7 @@ const Main = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [data, setData] = useState({
     firstName: "",
-    lastname: "",
+    lastName: "",
     email: "",
     phone: "",
   });
