@@ -1,0 +1,12 @@
+.data-reveal {
+  animation-name: formdata;
+
+  @keyframes formdata {
+    0% {
+      opacity: 0 !important;
+    }
+    100% {
+      opacity: 1 !important;
+    }
+  }
+}
