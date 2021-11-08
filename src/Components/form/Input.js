@@ -8,6 +8,7 @@ const Input = (props) => {
       value={props.value}
       name={props.name}
       className={props.className}
+      required
     />
   );
 };
