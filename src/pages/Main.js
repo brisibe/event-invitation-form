@@ -69,6 +69,7 @@ const Main = () => {
                 id="firstname"
                 value={data.firstName}
                 onChange={onHandleChange}
+                required
               />
             </div>
             <div className="col-md-6">
@@ -82,6 +83,7 @@ const Main = () => {
                 name="lastName"
                 value={data.lastName}
                 onChange={onHandleChange}
+                required
               />
             </div>
             <div className="col-md-6">
@@ -95,6 +97,7 @@ const Main = () => {
                 id="email"
                 value={data.email}
                 onChange={onHandleChange}
+                required
               />
             </div>
             <div className="col-md-6">
